@@ -1,0 +1,161 @@
+*{
+    /* overflow: hidden; */
+
+}
+
+:root{
+    --primary-color: #CC000E;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    color: white;
+    width: 100%;
+}
+
+
+
+nav{
+    color: white;
+    padding: ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    width: 100%;
+
+}
+
+
+
+ul{
+    display: flex;
+
+}
+
+
+li{
+    font: 400;
+    list-style: none;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+
+.logo{
+    padding-left: 10px;
+    text-align: center;
+    color: var(--primary-color);    
+    font-size: 30px !important;
+    display: flex;
+}
+
+.logo h6{
+    text-transform: uppercase;
+    flex: none;
+    font-weight;: 600 !important
+}
+
+
+.logo-text{
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+
+.products{
+    margin-top: 20px !important;
+}
+
+.banner-section{
+    width: 100%;
+    overflow: hidden;
+}
+
+.product-menu{
+    width: 100%;
+    display: flex;
+}
+
+
+.recent-stories {
+    background: url(https://rog.asus.com/_nuxt/img/rog_bg_pattern.2e3d71a.jpg) fixed;
+    background-position: fixed;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 4rem !important;
+    margin-top: 4rem !important;
+
+}
+.Roginaction {
+    background: white;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 3rem !important;
+    margin-top: 3rem !important;
+}
+
+
+
+.rec-text{
+    margin-top: 3rem !important;
+    line-height: 23px;
+}
+
+.rec-text h6{
+    margin-top: 4rem !important;
+    color: var(--primary-color);
+}
+
+
+.rec-text h3{
+    font-size: 2rem !important;
+    margin-top: 4rem !important;
+}
+
+.rec-text1{
+    margin-top: 2rem !important;
+    line-height: 23px;
+}
+
+.rec-text1 h6{
+    margin-top: 4rem !important;
+    color: var(--primary-color);
+}
+
+
+.rec-text1 h3{
+    font-size: 2rem;
+    color: var(--bs-black);
+}
+
+
+.last-img{
+    position: relative;
+}
+
+.bottom-text{
+    position: absolute;
+    right: 30px;
+    top: 120px;
+}
+
+
+.last-section{
+    height: 400px;
+    position: relative;
+
+}
+
+.last-sec-text{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+
+}
